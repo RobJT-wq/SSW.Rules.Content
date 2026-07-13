@@ -11727,15 +11727,6 @@
 		"createdByEmail": "TiagoAraujo@ssw.com.au"
 	},
 	{
-		"file": "rules/do-you-include-google-analytics-in-your-website/rule.md",
-		"lastUpdated": "2021-04-01T20:56:30.611Z",
-		"lastUpdatedBy": "Tiago Araújo [SSW]",
-		"lastUpdatedByEmail": "tiagov8@gmail.com",
-		"created": "2014-08-20T15:51:23+10:00",
-		"createdBy": "Drew Robson",
-		"createdByEmail": "DrewRobson@ssw.com.au"
-	},
-	{
 		"file": "rules/do-you-know-how-to-use-google-analytics-content-by-title-reports-to-track-trends/rule.md",
 		"lastUpdated": "2021-04-01T21:13:08.620Z",
 		"lastUpdatedBy": "Tiago Araújo [SSW]",
@@ -25371,7 +25362,7 @@
 		"lastUpdatedByEmail": "bradystroud@ssw.com.au"
 	},
 	{
-		"file": "rules/use-Generation-2-VMs/rule.md",
+		"file": "rules/use-generation-2-vms/rule.md",
 		"created": "2021-04-20T22:30:21.604Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",
@@ -25380,7 +25371,7 @@
 		"lastUpdatedByEmail": "tiagov8@gmail.com"
 	},
 	{
-		"file": "rules/use-Generation-2-VMs/Generation-2-VMs.png",
+		"file": "rules/use-generation-2-vms/Generation-2-VMs.png",
 		"created": "2021-04-20T22:31:48.796Z",
 		"createdBy": "Tiago Araújo [SSW]",
 		"createdByEmail": "tiagov8@gmail.com",

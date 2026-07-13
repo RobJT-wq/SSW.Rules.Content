@@ -1,0 +1,41 @@
+---
+archivedreason: null
+authors:
+- title: Tiago Araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
+created: 2012-07-24 22:02:32+00:00
+createdBy: Tiago Araujo
+createdByEmail: TiagoAraujo@ssw.com.au
+guid: a5f42e3c-b24e-43de-8021-a85e9fed0656
+isArchived: false
+lastUpdated: 2021-06-17 17:19:59.859000+00:00
+lastUpdatedBy: Tiago Araújo [SSW]
+lastUpdatedByEmail: tiagov8@gmail.com
+redirects:
+- do-you-remove-＂language＂-from-your-script-tag
+seoDescription: Remove the outdated "language" attribute from your script tags, and
+  omit the optional "type" attribute for JavaScript.
+title: Do you remove "Language" from your script tag?
+categories:
+  - category: categories/software-engineering/rules-to-better-javascript-and-jquery.mdx
+type: rule
+uri: do-you-remove-language-from-your-script-tag
+---
+
+Years ago, it was common to have the "language" attribute within the script tags. This attribute was used to specify the scripting language of the contents of this element.
+
+<endIntro />
+
+Since the "language" attribute is not standard, it is obsolete and should be removed. For JavaScript, the "type" attribute is optional too and can be left out.
+
+```html
+<script src="script.js" language="javascript"></script>
+```
+**❌ Figure: Bad example - The "language" attribute is obsolete**  
+
+```html
+<script src="script.js"></script>
+```
+**✅ Figure: Good example - No "language" attribute, and "type" omitted since JavaScript is the default**  
+
+Read more on [MDN - The Script element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script).
